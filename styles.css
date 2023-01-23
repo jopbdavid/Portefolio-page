@@ -1,0 +1,80 @@
+*{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    
+    margin-bottom: 0px;
+
+}
+
+.nav{
+    display: flex;
+    margin: auto;
+    
+    
+    
+}
+
+.nav ul{
+    display: flex;
+    margin: auto;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 1rem;
+}
+h1{
+    width: 50%;
+    margin-left: 5rem;
+    margin-bottom: 0px;
+   
+}
+
+.banner1{
+    background-color: #86D0E9;
+    height: 600px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    margin-left: 10rem;
+}
+#hello{
+    font-size: 1.25rem;
+    letter-spacing: 6px;
+    color: #9A531D;
+    font-weight: 400;
+}
+
+#joao{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #0D2149;
+    
+
+}
+#david{
+    font-size: 4rem;
+    margin-top: -50px;
+    margin-left: 70px;
+    letter-spacing: 3px;
+    color: #0D2149;
+}
+#spell{
+
+}
+#desc{
+    font-size: 1.25rem;
+}
+
+.profile{
+    background-image: url("IMG_5616.JPG");
+
+}
