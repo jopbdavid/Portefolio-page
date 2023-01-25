@@ -28,6 +28,21 @@ header{
 .nav ul li{
     padding: 1rem;
 }
+#abouticon{
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+}
+#homepageicon{
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+}
+#projectsicon{
+    width: 35px;
+    height: 35px;
+    margin-top: -10px;
+}
 h1{
     width: 50%;
     margin-left: 5rem;
@@ -36,15 +51,20 @@ h1{
 }
 
 .banner1{
-    background-color: #86D0E9;
-    height: 600px;
+    
+    height: 500px;
     margin-top: 0;
     display: flex;
     align-items: center;
+    background-image: url(./19742.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .about{
     margin-left: 10rem;
+    width: 40%;
 }
 #hello{
     font-size: 1.25rem;
@@ -68,13 +88,44 @@ h1{
     color: #0D2149;
 }
 #spell{
-
+ margin-top: -50px;
+ font-size: 1.1rem;
+ margin-left: 50px;
 }
 #desc{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
 }
 
 .profile{
-    background-image: url("IMG_5616.JPG");
+width: 50%;
 
+height: 500px;
+display: flex;
+align-items: center;
+
+}
+
+#author{
+    width: auto;  
+    height: 500px;
+    opacity: 1;
+
+}
+
+.skills{
+    width: 30%;
+    height: 500px;
+}
+
+#aboutbutton{
+    background-color:#1a3c80;
+    color: aliceblue;
+    padding: 15px 15px;
+    width: 170px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 1rem;
+    margin-left: 20px;
 }
